@@ -9,6 +9,8 @@ In the left menu, click Backup vaults → Create backup vault:
 
 > Click Create backup vault.
 
+
+
 Step 2: Create a Backup Plan
 In AWS Backup, go to Backup plans → Create backup plan.
 
@@ -23,7 +25,8 @@ Backup frequency: Daily
 
 Backup vault: Choose MyBackupVault
 
-Click Create plan
+Click Create plan  
+
 
 Step 3: Assign EC2 Instance to Backup Plan
 After creating the backup plan, click Assign resources.
@@ -56,6 +59,7 @@ Threshold type: Static
 Whenever CPUUtilization is... Greater than 50
 
 Set period (e.g., 5 minutes), evaluation periods (e.g., 2).
+
 
 
 Step 5: Set Email Notification (SNS)
