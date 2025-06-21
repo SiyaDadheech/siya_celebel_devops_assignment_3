@@ -6,7 +6,9 @@
 > az role assignment create --assignee testuser1@<your-tenant-id>.onmicrosoft.com --role "Reader" --scope /subscriptions/subscription-id
 # to create json file
 > vim Customrole.json
-add the following content there:
+
+add the following content there:  
+
 >  {
   "Name": "Custom Reader",
   "IsCustom": true,
